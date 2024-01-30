@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './CSS/ShopCategory.css';
 import { ShopContext } from '../Context/ShopContext';
 
-const shopCategory = (props) => {
+const ShopCategory = (props) => {
 
   const {all_product} = useContext(ShopContext);
 
@@ -13,4 +13,4 @@ const shopCategory = (props) => {
   );
 };
 
-export default shopCategory;
+export default ShopCategory;

@@ -4,7 +4,7 @@ import { ShopContext } from '../Context/ShopContext';
 import dropdown from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Items/Item'
 
-const ShopCategory1 = (props) => {
+const ShopCategory = (props) => {
 
   const {all_product} = useContext(ShopContext);
 
@@ -36,5 +36,5 @@ const ShopCategory1 = (props) => {
   );
 };
 
-export default ShopCategory1;
+export default ShopCategory;
 
